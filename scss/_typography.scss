@@ -38,3 +38,16 @@ h4 {
 p, a {
   font-weight: 400;
 }
+
+a {
+  color: $lochmara;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: $cerise;
+  }
+}
