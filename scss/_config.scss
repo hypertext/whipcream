@@ -1,0 +1,26 @@
+//-------------------------------------------------
+//
+//  Configurations
+//  ==========
+//
+//-------------------------------------------------
+
+// defaults for typography
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300);;
+$base-font-family: 'Source Sans Pro', 'HelveticaNeue', 'Helvetica Neue', sans-serif, arial;
+
+$base-em: 10px;
+$base-font-size: 1.5rem;    // 15px
+$base-line-height: 2.8rem;  // 28px
+
+$h1-font-size: 2.8rem;      // 28px
+$h1-line-height: 3.6rem;    // 36px
+
+$h2-font-size: 2rem;        // 20px
+$h2-line-height: $base-line-height;    // 28px
+
+$h3-font-size: 1.6rem;      // 16px
+$h3-line-height: $base-line-height;    // 28px
+
+$h4-font-size: 1.3rem;      // 13px
+$h4-line-height: $base-line-height;  // 28px

@@ -1,0 +1,40 @@
+//-------------------------------------------------
+//
+//  Typograhpy
+//  ==========
+//
+//-------------------------------------------------
+
+html {
+  font-size: $base-em;
+  font-family: $base-font-family;
+}
+
+body {
+  font-size: $base-font-size;
+}
+
+h1 {
+  font-size: $h1-font-size;
+  font-weight: 300;
+  line-height: $h1-line-height;
+}
+h2 {
+  font-size: $h2-font-size;
+  font-weight: 400;
+  line-height: $h2-line-height;
+}
+h3 {
+  font-size: $h3-font-size;
+  font-weight: 400;
+  line-height: $h3-line-height;
+}
+h4 {
+  font-size: $h4-font-size;
+  font-weight: 600;
+  line-height: $h4-line-height;
+}
+
+p, a {
+  font-weight: 400;
+}
