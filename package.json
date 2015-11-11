@@ -1,0 +1,25 @@
+{
+  "name": "whip-cream",
+  "version": "0.0.1",
+  "description": "class-less css framework",
+  "main": "whipcream.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkeusebio/whip-cream.git"
+  },
+  "author": "Vincent Kyle Eusebio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vkeusebio/whip-cream/issues"
+  },
+  "homepage": "https://github.com/vkeusebio/whip-cream#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.0"
+  }
+}
