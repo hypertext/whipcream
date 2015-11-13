@@ -55,3 +55,10 @@ a {
 label {
   display: block;
 }
+
+pre,
+code {
+  padding: .2rem;
+  border: 1px solid darken($white, 25);
+  background-color: darken($white, 10);
+}
