@@ -1,0 +1,81 @@
+//-------------------------------------------------
+//
+//  Buttons
+//  ==========
+//  Reset
+//-------------------------------------------------
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    background: none;
+    border: 0;
+    outline: 0;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-appearance: button; // for input
+    -webkit-user-select: none; // for button
+       -moz-user-select: none;
+        -ms-user-select: none;
+}
+
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+//-------------------------------------------------
+//
+//  Buttons
+//  ==========
+//  Default Styles
+//-------------------------------------------------
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    min-width: 9.3333rem;
+    color: $white;
+    padding: 1rem;
+}
+
+input[type="submit"] {
+    background-color: lighten($lochmara, 10);
+
+    &:hover {
+        background-color: lighten($lochmara, 5);
+    }
+}
+
+input[type="reset"],
+input[type="button"],
+button {
+    background-color: darken($white, 20);
+
+    &:hover {
+        background-color: darken($white, 25);
+    }
+}
+
+input[type="submit"]:disabled,
+input[type="reset"]:disabled,
+input[type="button"]:disabled,
+button:disabled {
+    background-color: darken($white, 10);
+    color: darken($white, 25);
+}
