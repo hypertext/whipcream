@@ -7,7 +7,7 @@
 
 html {
   font-size: $base-em;
-  font-family: $base-font-family;
+  font-family: $sans-serif;
 }
 
 body {
@@ -58,7 +58,10 @@ label {
 
 pre,
 code {
-  padding: .2rem;
-  border: 1px solid darken($white, 25);
-  background-color: darken($white, 10);
+  padding: .2rem .5em;
+  border: 1px solid darken($white, 15);
+  background-color: darken($white, 5);
+  font-family: $monospace;
+  font-style: italic;
+  color: $tundora;
 }
