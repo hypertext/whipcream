@@ -11,3 +11,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  width: $base-body-width;
+  height: $base-body-height;
+  padding: 0;
+  margin: 0 auto;
+}
+

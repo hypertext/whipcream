@@ -5,13 +5,17 @@
 //
 //-------------------------------------------------
 
-// defaults for typography
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300);;
-$base-font-family: 'Source Sans Pro', 'HelveticaNeue', 'Helvetica Neue', sans-serif, arial;
-
+// base defaults
 $base-em: 10px;
 $base-font-size: 1.5rem;    // 15px
 $base-line-height: 2.8rem;  // 28px
+
+$base-body-width: 64rem; // 960px
+$base-body-height: auto;
+
+// defaults for typography
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300);;
+$base-font-family: 'Source Sans Pro', 'HelveticaNeue', 'Helvetica Neue', sans-serif, arial;
 
 $h1-font-size: 2.8rem;      // 28px
 $h1-line-height: 3.6rem;    // 36px
