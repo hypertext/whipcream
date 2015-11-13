@@ -48,33 +48,42 @@ button::-moz-focus-inner {
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
+button[type="submit"],
+button[type="reset"],
 button {
     min-width: 9.3333rem;
     color: $white;
     padding: 1rem;
 }
 
-input[type="submit"] {
+input[type="submit"],
+button[type="submit"] {
     background-color: lighten($lochmara, 10);
 
     &:hover {
         background-color: lighten($lochmara, 5);
+        color: darken($white, 25);
     }
 }
 
 input[type="reset"],
 input[type="button"],
+button[type="reset"],
 button {
-    background-color: darken($white, 20);
+    background-color: darken($white, 10);
+    color: $tundora;
 
     &:hover {
         background-color: darken($white, 25);
+        color: $black;
     }
 }
 
 input[type="submit"]:disabled,
 input[type="reset"]:disabled,
 input[type="button"]:disabled,
+button[type="submit"]:disabled,
+button[type="reset"]:disabled,
 button:disabled {
     background-color: darken($white, 10);
     color: darken($white, 25);
