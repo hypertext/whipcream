@@ -2,26 +2,26 @@
 //
 //  Form
 //  ==========
-//  Reset
+//
 //-------------------------------------------------
 
+input,
+textarea,
+select,
 fieldset {
   border: 1px solid darken($white, 15);
-  border-radius: .5em;
-  padding: 2rem;
+  border-radius: .5rem;
 }
 
-//-------------------------------------------------
-//
-//  Form
-//  ==========
-//  Default Styles
-//-------------------------------------------------
+fieldset {
+  padding: 2em;
+}
 
 label {
   display: block;
-  font-weight: $font-weight-bold;
   line-height: $base-line-height;
+  color: lighten($tundora, 25);
+  font-size: .8em;
 }
 
 input,
@@ -31,9 +31,20 @@ button {
   display: block;
 }
 
+input,
+textarea,
+select {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: .5rem;
+  font-size: $base-font-size;
+}
+
 input[type="checkbox"],
-input[type="radiobutton"] {
+input[type="radio"] {
   display: inline;
   float: left;
-  line-height: $base-line-height;
+  line-height: 2 * $base-em;
+  margin-top: .8 * $base-em;
+  margin-right: .5 * $base-em;
 }
