@@ -51,10 +51,22 @@ input[type="button"],
 button[type="submit"],
 button[type="reset"],
 button {
+    display: inline;
     min-width: 9.3333rem;
     color: $white;
     padding: 1rem;
     border-radius: .5rem;
+    margin-right: 1rem;
+
+    &:disabled {
+        display: inline;
+        background-color: darken($white, 10);
+        color: darken($white, 25);
+    }
+
+    &:first-child {
+        margin-right: 0;
+    }
 }
 
 input[type="submit"],
@@ -78,14 +90,4 @@ button {
         background-color: darken($white, 25);
         color: $black;
     }
-}
-
-input[type="submit"]:disabled,
-input[type="reset"]:disabled,
-input[type="button"]:disabled,
-button[type="submit"]:disabled,
-button[type="reset"]:disabled,
-button:disabled {
-    background-color: darken($white, 10);
-    color: darken($white, 25);
 }
