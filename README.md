@@ -1,5 +1,5 @@
-# whipcream
-A _"classless"_ css framework soo simple you'll love it too much that you'll get diabetes.
+# whipcream [![Build Status](https://travis-ci.org/vkeusebio/whipcream.svg?branch=master)](https://travis-ci.org/vkeusebio/whipcream) [![Dependency Status](https://www.versioneye.com/user/projects/56487240623ccd00270007ac/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56487240623ccd00270007ac) [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/vkeusebio/whipcream/blob/master/LICENSE)
+A _"classless"_ css framework so simple you'll love it too much that you'll get diabetes.
 
 ## Installation
 ### Via Bower
@@ -9,7 +9,7 @@ bower install whipcream
 ```
 
 ### Manual Installation
-1. Download [**whipcream.zip**]().
+1. Download [**whipcream.zip**](https://github.com/vkeusebio/whipcream/archive/v1.0.0.zip).
 2. Extract **whipcream.zip** to a folder.
 3. Link **whipcream.min.css** to your HTML file, for example:
 
