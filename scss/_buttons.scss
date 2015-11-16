@@ -57,13 +57,18 @@ button {
     padding: 1rem;
     border-radius: .5rem;
     margin-right: 1rem;
-
+    
     &:disabled {
         display: inline;
         background-color: darken($white, 10);
         color: darken($white, 25);
+        
+        &:hover {
+            background-color: darken($white, 10);
+            color: darken($white, 25);
+        }
     }
-
+    
     &:first-child {
         margin-right: 0;
     }
