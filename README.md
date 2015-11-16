@@ -1,5 +1,7 @@
 # whipcream [![Build Status](https://travis-ci.org/vkeusebio/whipcream.svg?branch=master)](https://travis-ci.org/vkeusebio/whipcream) [![Dependency Status](https://www.versioneye.com/user/projects/56487240623ccd00270007ac/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56487240623ccd00270007ac) [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/vkeusebio/whipcream/blob/master/LICENSE)
-A _"classless"_ css framework so simple you'll love it too much that you'll get diabetes.
+A simple _"classless"_ css framework for everyone.
+
+Visit the [Official Website](http://vkeusebio.github.io/whipcream/) for a live demo.
 
 ## Installation
 ### Via Bower
