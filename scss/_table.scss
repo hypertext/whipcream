@@ -1,0 +1,24 @@
+//-------------------------------------------------
+//
+//  Table
+//  ==========
+//  
+//-------------------------------------------------
+
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  text-align: left;
+  font-weight: $font-weight-bold;
+  line-height: $base-line-height;
+  border-bottom: 2px solid rgba($black, .1);
+}
+
+th,
+td {
+  vertical-align: bottom;
+  padding: 1rem 1.6 * $base-em;
+  border-bottom: 1px solid rgba($westar, .5);
+}
