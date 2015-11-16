@@ -1,6 +1,6 @@
 {
-  "name": "whip-cream",
-  "version": "0.0.1",
+  "name": "whipcream",
+  "version": "1.0.0",
   "description": "class-less css framework",
   "main": "whipcream.css",
   "repository": {
