@@ -9,7 +9,7 @@ bower install whipcream
 ```
 
 ### Manual Installation
-1. Download [**whipcream.zip**](https://github.com/vkeusebio/whipcream/archive/v1.0.0.zip).
+1. Download [**whipcream.zip**](https://github.com/vkeusebio/whipcream/archive/v1.0.1.zip).
 2. Extract **whipcream.zip** to a folder.
 3. Link **whipcream.min.css** to your HTML file, for example:
 
