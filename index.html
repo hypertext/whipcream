@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Whipcream - a simple "classless" css framework</title>
+  <link rel="stylesheet" href="vendor/lemonade.min.css">
+  <link rel="stylesheet" href="css/whipcream.min.css">
+  <link rel="stylesheet" href="css/demo.css">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body>
+  <a href="http://github.com/vkeusebio/whipcream" class="github-corner"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#70B7FD; color:#fff; position: absolute; top: 0; border: 0; right: 0;"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style><main class="frame">
+    <aside>
+      <section id="navigation" class="bit-35">
+        <article>
+          <h1>whipcream</h1>
+          <p>a simple "<i>classless</i>" css framework so simple</p>
+          <p>you'll love it too much that you'll get diabetes.</p>
+          <br>
+          <ul>
+            <li><a href="#overview">overview</a></li>
+            <li><a href="#config">config</a></li>
+            <li><a href="#base">base</a></li>
+            <li><a href="#colors">colors</a></li>
+            <li><a href="#type">type</a></li>
+            <li><a href="#form">form</a></li>
+          </ul>
+          <br>
+          <footer>
+            <small>Made with <span class="ion-ios-heart"></span> by <a href="https://github.com/vkeusebio">@vkeusebio</a></small>
+          </footer>
+        </article>
+      </section>
+    </aside>
+    <aside>
+      <section class="bit-65">
+        <article id="overview">
+          <h2>Overview</h2>
+          <br>
+          <p>Whipcream is a simple "<i>classless</i>" css framework that I made as a style boilerplate</p>
+          <p>for my projects. The idea is to avoid the use of classes as much as possible making it</p>
+          <p>easier to customize or just use it as is.</p>
+          <br>
+          <p>Don't expect for a grid system...yet, so for a while you can use <a href="http://lemonade.im/">dope's lemonade</a> grid system.</p>
+          <br>
+          <p>Whipcream is still a work-in-progress, you can help me make it better, check it out on <a href="https://github.com/vkeusebio/whipcream">GitHub</a>.</p>
+        </article><!-- #overview -->
+        <br>
+        <article id="config">
+          <h2>Configuration </h2><p><a href="https://github.com/vkeusebio/whipcream/blob/master/scss/_config.scss">scss/_config.scss</a></p>
+          <br>
+          <p>In this file, all configurable variables are currated especially the <code>$base-em</code> which many</p>
+          <p>elements' sizes are depending on. I recommend leaving it equal to 10 pixels and change the</p>
+          <p><code>$base-font-size</code>'s value instead.</p>
+        </article><!-- #config -->
+        <br>
+        <article id="base">
+          <h2>Base </h2><p><a href="https://github.com/vkeusebio/whipcream/blob/master/scss/_base.scss">scss/_base.scss</a></p>
+          <br>
+          <p>Contains the box-sizing hack and sets the default width and height of <code>html</code> and <code>body</code>.</p>
+        </article><!-- #base -->
+        <br>
+        <article id="colors">
+          <h2>Colors </h2><p><a href="https://github.com/vkeusebio/whipcream/blob/master/scss/_colors.scss">scss/_colors.scss</a></p>
+          <br>
+          <div class="swatches">
+            <div class="swatch">
+              <div class="black"></div>
+              <p>black</p>
+            </div>
+            <div class="swatch">
+              <div class="white"></div>
+              <p>white</p>
+            </div>
+            <div class="swatch">
+              <div class="tundora"></div>
+              <p>tundora</p>
+            </div>
+            <div class="swatch">
+              <div class="lochmara"></div>
+              <p>lochmara</p>
+            </div>
+            <div class="swatch">
+              <div class="cerise"></div>
+              <p>cerise</p>
+            </div>
+          </div>
+          <div class="swatches">
+            <div class="swatch">
+              <div class="westar"></div>
+              <p>westar</p>
+            </div>
+            <div class="swatch">
+              <div class="carnation"></div>
+              <p>carnation</p>
+            </div>
+            <div class="swatch">
+              <div class="jungle-green"></div>
+              <p>jungle-green</p>
+            </div>
+            <div class="swatch">
+              <div class="candy-corn"></div>
+              <p>candy-corn</p>
+            </div>
+            <div class="swatch">
+              <div class="crusta"></div>
+              <p>crusta</p>
+            </div>
+          </div>
+        </article><!-- #colors -->
+        <br>
+        <article id="type">
+          <h2>Typography </h2><p><a href="https://github.com/vkeusebio/whipcream/blob/master/scss/_typography.scss">scss/_typography.scss</a></p>
+          <br>
+          <h1>This is Heading 1</h1>
+          <h2>This is Heading 2</h2>
+          <h3>This is Heading 3</h3>
+          <h4>This is Heading 4</h4>
+          <br>
+          <p>This is a paragraph with an <a href="#">anchor link</a>.</p>
+        </article><!-- #type -->
+        <br>
+        <article id="form">
+          <h2>Form </h2><p><a href="https://github.com/vkeusebio/whipcream/blob/master/scss/_form.scss">scss/_form.scss</a></p>
+          <br>
+          <p>By default, input's width doesn't take much of the parent's width.</p>
+          <br>
+          <form action="#">
+            <fieldset>
+              <label for="email">Email Address</label>
+              <input id="email" type="email" placeholder="john.doe@domain.com">
+
+              <label for="name">Name</label>
+              <input id="name" type="text" placeholder="John P. Doe">
+
+              <label for="body">Body</label>
+              <textarea id="body" cols="60" rows="5" placeholder="Hello, World!"></textarea>
+              <br>
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+            </fieldset>
+          </form>
+          <br>
+          <p>You can also use the input tag for buttons.</p>
+          <br>
+          <input type="button" value="I'm an Input button">
+          <input type="button" disabled value="I'm a disabled Input button">
+        </article><!-- #form -->
+      </section>
+    </aside>
+  </main>
+</body>
+</html>

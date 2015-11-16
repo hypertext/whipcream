@@ -1,0 +1,130 @@
+aside {
+  float: left;
+}
+
+aside:last-of-type {
+  border-left: 2px solid rgba(0, 0, 0, .1);
+  margin-left: 35vw;
+}
+
+aside:first-child * {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#navigation{
+  text-align: center;
+  position: fixed;
+  width: 35vw;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  padding-right: 1em;
+}
+
+*[class^="bit-"] {
+  margin: 0 1em;
+}
+
+article {
+  margin: 2em 0;
+}
+
+.swatches {
+  dispaly: block;
+}
+
+.swatches .swatch {
+  float: left;
+  margin: 0 1em;
+  display: inline-block;
+  text-align: center;
+}
+
+.black {
+  background-color: #000000;
+  width: 5em;
+  height: 5em;
+  border-radius: 10%;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+.white {
+  background-color: #FFFFFF;
+  width: 5em;
+  height: 5em;
+  border-radius: 10%;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+.tundora {
+  background-color: #4A4A4A;
+  width: 5em;
+  height: 5em;
+  border-radius: 10%;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+.lochmara {
+  background-color: #0579C6;
+  width: 5em;
+  height: 5em;
+  border-radius: 10%;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+.cerise {
+  background-color: #DA49B2;
+  width: 5em;
+  height: 5em;
+  border-radius: 10%;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+.westar {
+  background-color: #DBD6D0;
+  width: 5em;
+  height: 5em;
+  border-radius: 10%;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+.carnation {
+  background-color: #F35667;
+  width: 5em;
+  height: 5em;
+  border-radius: 10%;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+.jungle-green {
+  background-color: #2EAA86;
+  width: 5em;
+  height: 5em;
+  border-radius: 10%;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+.candy-corn {
+  background-color: #FBE655;
+  width: 5em;
+  height: 5em;
+  border-radius: 10%;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+.crusta {
+  background-color: #FD763F;
+  width: 5em;
+  height: 5em;
+  border-radius: 10%;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .3);
+}
