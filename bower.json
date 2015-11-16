@@ -1,0 +1,24 @@
+{
+  "name": "whipcream",
+  "description": "class-less css framework",
+  "main": "whipcream.css",
+  "authors": [
+    "Vincent Kyle Eusebio"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "sass",
+    "framework",
+    "classless"
+  ],
+  "homepage": "https://github.com/vkeusebio/whip-cream",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
